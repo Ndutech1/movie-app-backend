@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ Middleware
 app.use(cors({
-  origin: 'https://movie-app-frontend-rye9-r19ga7ofj-ndutech1s-projects.vercel.app',
-  credentials: true,
+  origin: "https://movie-app-frontend-rye9-92vyr2v5x-ndutech1s-projects.vercel.app",
+  credentials: true
 }));
 app.use(express.json());
 app.use(cookieParser());
