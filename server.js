@@ -18,7 +18,7 @@ console.log("🔍 MONGO_URI:", process.env.MONGO_URI);
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://movie-app-frontend-rye9-92vyr2v5x-ndutech1s-projects.vercel.app"
+    "https://movie-app-frontend-rye9-jev258v2h-ndutech1s-projects.vercel.app",
   ],
   credentials: true
 }));
